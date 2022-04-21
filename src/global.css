@@ -1,0 +1,111 @@
+/* body
+{
+    background-color: #111;
+}
+table
+{
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+
+}
+th
+{
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+}
+tr,td
+{
+    border: 1px solid yellow;
+    padding: 15px;
+    color: white;
+
+} */
+
+/* **********************flex and table for json***************** */
+#secBlock
+{
+    width: 100%;
+}
+
+#secBlock article
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#secBlock article div
+{
+    width: 100%;
+    flex: 1;
+    margin: 10px;
+    background-color: orange;
+}
+ div figure img
+{
+    width: 250px;
+    height: 300px;
+}
+div p
+{
+    text-align: center;
+    background-color: grey;
+}
+
+/* increment dec */
+/* #secBlock
+{
+    width: 100%;
+    border: 2px solid;
+    height: 100vh;
+    background-color: black;
+}
+
+#secBlock article
+{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#secBlock article h1
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+#secBlock button
+{
+    margin: 10px;
+    background-color: crimson;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border-bottom: 5px solid teal;
+    border-right: 5px solid teal;
+    font-weight: bold;
+}
+#secBlock button:hover
+{
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 5px solid blue;
+    border-right: 5px solid blue;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 20px yellow;
+}
+ */
+
